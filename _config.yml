@@ -1,7 +1,7 @@
 # Site settings
-title: PHOTORAMA
+title: rileyglz <3
 email: ""
-description: "Photo Journal"
+description: "Portfolio"
 url: "http://rileyglz.github.io"
 baseurl: ""
 facebook_username: ""
@@ -33,9 +33,11 @@ comments :
 
 # Internal nav
 nav:
-  - GALLERY: "http://rileyglz.github.io/gallery/"  
-  - JOURNAL: "http://rileyglz.github.io/journal/"
-  - ABOUT: "http://rileyglz.github.io/about/"
+  - about: "/about/"
+  - blog: "/blog/"
+  - work: "/work/"  
+  
+  
 
 # All translation keys
 translations:
@@ -52,10 +54,10 @@ markdown: kramdown
 highlighter: rouge
 permalink: pretty
 paginate: 5
-paginate_path: "/journal/page:num/"
-permalink: "/journal/:title/"
-categories_path: "/journal/category/"
-tags_path: "/journal/tag/"
+paginate_path: "/tag/page:num/"
+permalink: "/tag/:title/"
+categories_path: "/tag/category/"
+tags_path: "/tag/tag/"
 gems: 
  - jekyll-paginate
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
